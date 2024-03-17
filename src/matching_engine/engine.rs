@@ -2,6 +2,11 @@ use std::collections::HashMap;
 
 use super::orderbook::{Order, Orderbook};
 
+/*
+    BTC_USDT
+    BTC => Base
+    USDT => Quote
+*/
 #[derive(Debug, Eq, PartialEq, Hash, Clone)]
 pub struct TradingPair {
     base: String,
